@@ -1,0 +1,10 @@
+body, html{
+  margin: 0;
+  height;100%
+}
+ul {
+  list-style: none;
+}
+li{
+  display: inline-block;
+}
