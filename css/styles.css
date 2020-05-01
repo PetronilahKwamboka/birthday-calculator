@@ -6,5 +6,28 @@ ul {
   list-style: none;
 }
 li{
-  display: inline-block;
+display: grid;
 }
+.hero-section{
+  background-image: url(https://images.pexels.com/photos/1729808/pexels-photo-1729808.jpeg?cs=srgb&dl=lighted-candles-on-white-icing-covered-cake-1729808.jpg&fm=jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header{
+  text-align: left;
+  color: #ffe6e6;
+}
+
+ .about-section{
+  font-size: 1.2em;
+  line-height: normal;
+  width: 100%;
+  height: 40vh;
+  margin: 50px;
+ }
