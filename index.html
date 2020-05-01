@@ -35,10 +35,16 @@
     </section>
     <section class="container birthday-form">
       <div class="row">
-        <div class="col-md-6 offset-3">
+        <div class="col-md-12">
+          <h2></h2>
           <form>
-            <label for="Birthday"> Birthday:</label>
-            <input type="date" name="birthday">
+            <label for="Year"> Year:</label>
+            <input name="century" id="century" value="CC">
+            <input  name="year" id="year" value="YY">
+            <label for="month"> Month</label>
+            <input name="month" id="month" value="MM">
+            <label for="Day"> Day</label>
+            <input type="day" id="day" name="" value="DD">
           </form>
           <form>
             <p>Choose Gender</p>
@@ -47,7 +53,7 @@
             <input type="radio" name="gender" value="female">
             <label for="female">female</label>
           </form>
-          <input type="button" name="" value="Submit">
+          <input type="button" name="" value="Generate name">
         </div>
       </div>
     </section>
