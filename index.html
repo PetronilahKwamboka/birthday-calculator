@@ -25,7 +25,7 @@
     </section>
     <section class="container about-section">
       <div class="row">
-        <div class="col-md-6 offset-3">
+        <div class="col-md-10 offset-2">
           <h1>About App</h1>
           <p>This app contains a section where you enter your birthday in the format of year,under which you enter the last two digits of the century you were born e.g 21. For the month entry, enter the month you were born e.g 07 for July or 12 for december. For the day entry enter the day of month you were born. It  calculates for you the day of the week that you were born.Then press the generate name button.
            Depending on your gender it showcases your Akhan name and the day you were born. Akhan names are Derived from Ghana culture, they are given to children as their first name, which is a day name that corresponds to the day of the week born.</p>
@@ -35,25 +35,31 @@
     </section>
     <section class="container birthday-form">
       <div class="row">
-        <div class="col-md-6 offset-3">
-          <h2></h2>
-          <form>
-            <label for="Year"> Year:</label>
-            <input type="number" name="century" id="century" placeholder="CC">
-            <input  type="number" name="year" id="year" placeholder="YY">
-            <label for="month"> Month</label>
-            <input type="number" name="month" id="month" placeholder="MM">
-            <label for="Day"> Day</label>
-            <input type="number" id="day" name="day" placeholder="DD">
+        <div class="col-md-6 0ffset=3">
+          <form class="myform" onsubmit="return getAkhanName()">
+            <label for="Year"> Year:
+              <input type="number" name="cc" id="cc-input" placeholder="CC" value="" required>
+              <input  type="number" name="yy" id="yy-input" placeholder="YY">
+            </label>
+            <label for="month"> Month:
+              <input type="number" name="month-of-Birth" id="mm-input" placeholder="MM" value="" required>
+            </label>
+            <label for="Day"> Day:
+              <input type="number" id="day" name="day-of-birth" placeholder="DD" value="" required>
+            </label>
+            <br>
+              <label>
+                <p>Choose Gender</p>
+                male
+                <input type="radio" id="male-input" name="gender" value="male"required>
+                femlae
+                <input type="radio"id="female-input" name="gender" value="female" required>
+              </label>
+              <br></br>
+              <input id="get-name" type="submit" name="" value="Generate name">
+              <br></br>
+              <p id="answer"></p>
           </form>
-          <form>
-            <p>Choose Gender</p>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">male</label><br>
-            <input type="radio"id="female" name="gender" value="female">
-            <label for="female">female</label>
-          </form>
-          <input type="button" name="" value="Generate name">
         </div>
       </div>
     </section>
