@@ -39,18 +39,18 @@
           <h2></h2>
           <form>
             <label for="Year"> Year:</label>
-            <input name="century" id="century" value="CC">
-            <input  name="year" id="year" value="YY">
+            <input type="number" name="century" id="century" placeholder="CC">
+            <input  type="number" name="year" id="year" placeholder="YY">
             <label for="month"> Month</label>
-            <input name="month" id="month" value="MM">
+            <input type="number" name="month" id="month" placeholder="MM">
             <label for="Day"> Day</label>
-            <input type="day" id="day" name="" value="DD">
+            <input type="number" id="day" name="day" placeholder="DD">
           </form>
           <form>
             <p>Choose Gender</p>
-            <input type="radio" name="gender" value="male">
+            <input type="radio" id="male" name="gender" value="male">
             <label for="male">male</label><br>
-            <input type="radio" name="gender" value="female">
+            <input type="radio"id="female" name="gender" value="female">
             <label for="female">female</label>
           </form>
           <input type="button" name="" value="Generate name">
@@ -70,6 +70,5 @@
         </div>
       </div>
     </section>
-
   </body>
 </html>
