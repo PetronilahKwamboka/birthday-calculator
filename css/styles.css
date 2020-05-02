@@ -50,7 +50,7 @@ display: grid;
  }
 .birthday-form {
   background-color: purple;
-  display: flex;
+  display: inline-flex;
   color: white;
   width: 500px;
   padding: 20px;
