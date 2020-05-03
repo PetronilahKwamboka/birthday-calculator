@@ -24,3 +24,10 @@ $ git clone https://github.com/PetronilahKwamboka/birthday-calculator.git
          Javascript
          Atom Text editor
          Git $ Github
+
+## Contact Information
+
+You can reach me on social media platforms
+ Facebook @petiekwamboka
+  Instagram @petie_k18
+  Twitter @pettyKwamboka         
