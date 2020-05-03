@@ -26,7 +26,7 @@ if (male.checked === true){
  }
 
  function ddValidator() {
-   if (mm === 2 && yy%4 === 0 ) {
+   if (mm === 2 &&  yy%4 === 0 ) {
      if (dd > 28 || dd < 1) {
        return false;
      }else if (mm === 2 && dd > 29) {
