@@ -36,27 +36,30 @@
     <section class="container birthday-form">
       <div class="row">
         <div class="col-md-6 0ffset=3">
-          <form class="myform" onsubmit="return getAkhanName()">
-            <label for="Year"> Year:
-              <input type="number" name="cc" id="cc-input" placeholder="CC" value="" required>
-              <input  type="number" name="yy" id="yy-input" placeholder="YY">
+          <form class="myform">
+            <label>
+              Year:
+              <input id="cc-input" type="number" name="cc"  placeholder="CC" value="" required>
+              <input  id="yy-input" type="number" name="yy" placeholder="YY" value="" required>
             </label>
-            <label for="month"> Month:
-              <input type="number" name="month-of-Birth" id="mm-input" placeholder="MM" value="" required>
+            <label>
+              Month:
+              <input id="mm-input" type="number" name="month-of-birth"  placeholder="MM" value="" required>
             </label>
-            <label for="Day"> Day:
-              <input type="number" id="day" name="day-of-birth" placeholder="DD" value="" required>
+            <label>
+              Day:
+              <input id="dd-input" type="number"  name="day-of-birth" placeholder="DD" value="" required>
             </label>
             <br>
               <label>
-                <p>Choose Gender</p>
+                <p>select your Gender</p>
                 male
-                <input type="radio" id="male-input" name="gender" value="male"required>
+                <input id="male-input" type="radio"  name="gender" value="male"required>
                 femlae
-                <input type="radio"id="female-input" name="gender" value="female" required>
+                <input id="female-input" type="radio" name="gender" value="female" required>
               </label>
               <br></br>
-              <input id="get-name" type="submit" name="" value="Generate name">
+              <button id="get-name" onclick="return getAkanName()"type="button">Click</button>
               <br></br>
               <p id="answer"></p>
           </form>
@@ -76,5 +79,8 @@
         </div>
       </div>
     </section>
+    <script src="js/scripts.js"></script>
+
+
   </body>
 </html>
