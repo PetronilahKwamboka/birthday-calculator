@@ -30,4 +30,10 @@ $ git clone https://github.com/PetronilahKwamboka/birthday-calculator.git
 You can reach me on social media platforms
  Facebook @petiekwamboka
   Instagram @petie_k18
-  Twitter @pettyKwamboka         
+  Twitter @pettyKwamboka     
+
+## License and copyright Information
+
+License MIT      
+
+copyright(c) PetronilahKwamboka Moringa School Prep.
