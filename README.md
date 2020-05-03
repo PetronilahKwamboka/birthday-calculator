@@ -7,3 +7,20 @@
 ## Author Information
 
 Author is Petronilah Kwamboka at Moringa School Prep Program.
+
+## Setup instructions
+
+create a directory and name it
+clone this project into the directory by
+$ git clone https://github.com/PetronilahKwamboka/birthday-calculator.git
+ open the project in your text editor
+ Run the scripts.js file and attest if the functions and variables are working.
+
+
+### Technologies used
+ The project used the following technologies;
+         HTML & CSS
+         Bootstrap
+         Javascript
+         Atom Text editor
+         Git $ Github
