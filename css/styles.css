@@ -1,6 +1,7 @@
 body, html{
   margin: 0;
   height;100%;
+  background-color: silver;
 }
 ul {
   list-style: none;
@@ -34,6 +35,7 @@ display: grid;
    display: block;
    height: 100px;
    background: cornsilk;
+   margin: 2%;
  }
  .contact-section h1 {
    text-align: center;
@@ -48,7 +50,7 @@ display: grid;
    font-style: italic;
    color: black;
  }
-.birthday-form {
+.content {
   background-color: purple;
   display: inline-flex;
   color: white;
